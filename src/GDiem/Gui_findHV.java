@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import java.awt.Label;
 import java.util.Locale;
 
-public abstract class Gui_findHV extends JFrame implements ActionListener {
+public class Gui_findHV extends JFrame implements ActionListener {
     private String[] LopList= { "63PM1", "63PM2","63TH1","63TH2"};
     private JComboBox Lop = new JComboBox(LopList);
     private JRadioButton Male_btn = new JRadioButton("Nam");
@@ -82,7 +82,7 @@ public abstract class Gui_findHV extends JFrame implements ActionListener {
         this.add(add);
 
     };
-    public static void actionPerformed(ActionEvent e){
+    public void actionPerformed(ActionEvent e){
         System.out.println("Hello");
     }
 
