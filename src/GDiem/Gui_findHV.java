@@ -55,6 +55,8 @@ public class Gui_findHV extends JFrame implements ActionListener {
         Male_btn.setSize(70,30);
         Male_btn.setLocation(150,55);
 //
+
+
         Female_btn.setVisible(true);
         Female_btn.setSelected(true);
         Female_btn.setSize(80,30);
